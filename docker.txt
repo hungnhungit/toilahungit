@@ -1,0 +1,9 @@
+1. Run container 
+docker run -d -p port:port -v {PWD}:/my/path --name {name} {container_name}
+docker stop {container_id}
+docker start {container_id}
+Delete container
+docker rm {container_id}
+Delete Image
+docker rmi {image_id}
+2. Dockerfile
