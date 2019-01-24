@@ -1,0 +1,3 @@
+Xem thông số hệ điều hành
++ hostnamectl (centos 7)
++ cat /etc/centos-release
