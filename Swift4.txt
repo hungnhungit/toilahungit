@@ -1,0 +1,17 @@
+Ép kiểu 
+as?
+Tạo Array 
+let <name> = [<type_array>]()
+count : độ dài mảng
+method :
++ appends
+Tạo extension
+extension <name>{
+  var <name> : <type> {
+    //code return 
+  }
+}
+Tạo protocol (giống interface)
+protocol <name> {
+  //method
+}
