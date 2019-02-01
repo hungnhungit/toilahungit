@@ -1,0 +1,8 @@
+phát triển theo hướng CI :
++ Đầu tiên, developer commit code lên repo.
++ CI server giám sát repo và kiểm tra xem liệu có thay đổi nào trên repo hay không (liên tục, chẳng hạn mỗi phút 1 lần)
++ Ngay khi commit xảy ra, CI server phát hiện repo có thay đổi, nên nó nhận code mới nhất từ repo và sau đó build, chạy unit và integration test
++ CI server sẽ sinh ra các feedback và gửi đến các member của project
++ CI server tiếp tục chờ thay đổi ở repo
+
+CD : kỹ thuật để triển khai code lên môi trường production một cách tự động, và cũng nên là mục tiêu của hầu hết công ty.
